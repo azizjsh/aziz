@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+* {
+  margin: 5;
+  padding: 5;
+}
+.container {
+  background: url(Motion_1.jpg);
+  height: 100vh;
+  background-size: 150% 170%;
+}
+.container .navbar {
+  width: 100%;
+  height: 120%;
+  background: rgba(red, green, blue, alpha);
+}
+.navbar codeacademy {
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.navbar .codeacademy a {
+  text-decoration: solid;
+  font-family: sans-serif;
+  color: black;
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 50 25px;
+  line-height: 100px;
+}
+.navbar ul li a {
+  color: royalblue;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 8px 12px;
+  font-family: Roboto;
+  transition: 0.5s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: yellow border-radius 2px;
+}
+.container .center {
+  position: absolute;
+  top: 50% left 45% transform translate(-50%, -50%) font-family sans-serif
+    user-select none;
+}
+.center h1 {
+  color: black;
+  font-size: 75px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+}
+.center h2 {
+  color: blue;
+  font-size: 55px;
+  font-weight: bold;
+  width: 890px;
+  margin-top: 15px;
+  text-align: center;
+}
+.center .buttons {
+  margin: 50px 300px;
+}
+.buttons button {
+  height: 60px;
+  width: 160px;
+  font-size: 20px;
+  font-weight: bold;
+  color: chartreuse;
+  background: darkslateblue;
+  border: solid 2px brown;
+  cursor: pointer;
+  outline: none;
+  border-radius: 30px;
+}
